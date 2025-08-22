@@ -16,3 +16,6 @@ function student(name,age,grade){
         console.log(`Hi, my name is ${this.name}, I’m ${this.age} years old, and I’m in grade ${Grade}.`);
     };
 }
+
+let studentObj=new student('Ali',20,'A');
+studentObj.introduce();
